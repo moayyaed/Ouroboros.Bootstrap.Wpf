@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ouroboros.Bootstrap.Wpf</id>
+    <version>$version$</version>
+    <authors>Andrew Morger</authors>
+    <owners>Andrew Morger</owners>
+    <licenseUrl>https://github.com/asmorger/Ouroboros.Bootstrap.Wpf/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/asmorger/Ouroboros.Bootstrap.Wpf</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A project to load standard libraries into a blank WPF app.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Caliburn.Micro Autofac Automapper Fody</tags>
+    <dependencies>
+      <dependency id="Autofac" />
+      <dependency id="AutoMapper" />
+      <dependency id="Caliburn.Micro" />
+      <dependency id="Caliburn.Micro.AutofacBootstrap" />
+      <dependency id="Caliburn.Micro.Core" />
+      <dependency id="Fody" />
+      <dependency id="PropertyChanged.Fody" />
+    </dependencies>
+  </metadata>
+  <files>
+	  <file src="Ouroboros.Bootstrap.Wpf\Configuration\**\*.*" target="content\Configuration" />
+	  <file src="Ouroboros.Bootstrap.Wpf\ViewModels\**\*.*" target="content\ViewModels" />
+	  <file src="Ouroboros.Bootstrap.Wpf\Views\**\*.*" target="content\Views" />
+	  <file src="Ouroboros.Bootstrap.Wpf\App.Xaml.pp" target="content" />
+	  <file src="Ouroboros.Bootstrap.Wpf\App.Xaml.cs.pp" target="content" />
+  </files>
+</package>
