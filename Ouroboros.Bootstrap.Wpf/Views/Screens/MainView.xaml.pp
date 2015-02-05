@@ -1,4 +1,4 @@
-﻿<Page x:Class="Ouroboros.Bootstrap.Wpf.Views.Screens.MainView"
+﻿<Page x:Class="$rootnamespace$.Views.Screens.MainView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

@@ -3,7 +3,7 @@ using Autofac;
 using Caliburn.Micro.Autofac;
 using Ouroboros.Bootstrap.Wpf.ViewModels.Screens;
 
-namespace Ouroboros.Bootstrap.Wpf.Configuration
+namespace $rootnamespace$.Configuration
 {
     public class CaliburnAutofacApplication : AutofacBootstrapper<MainViewModel>
     {

@@ -1,4 +1,4 @@
-﻿namespace Ouroboros.Bootstrap.Wpf.Views.Screens
+﻿namespace $rootnamespace$.Views.Screens
 {
     /// <summary>
     /// Interaction logic for MainView.xaml

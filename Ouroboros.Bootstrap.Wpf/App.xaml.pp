@@ -1,7 +1,7 @@
-﻿<Application x:Class="Ouroboros.Bootstrap.Wpf.App"
+﻿<Application x:Class="$rootnamespace$.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Ouroboros.Bootstrap.Wpf.Configuration">
+             xmlns:local="clr-namespace:$rootnamespace$.Configuration">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

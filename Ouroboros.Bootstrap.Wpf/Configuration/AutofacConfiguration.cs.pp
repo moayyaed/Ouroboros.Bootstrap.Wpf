@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Ouroboros.Bootstrap.Wpf.Configuration
+namespace $rootnamespace$.Configuration
 {
     public static class AutofacConfiguration
     {

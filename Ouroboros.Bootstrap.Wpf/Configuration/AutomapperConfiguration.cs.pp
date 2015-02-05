@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Ouroboros.Bootstrap.Wpf.Configuration
+namespace $rootnamespace$.Configuration
 {
     public static class AutomapperConfiguration
     {

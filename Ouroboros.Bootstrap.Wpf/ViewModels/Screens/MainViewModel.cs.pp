@@ -1,6 +1,6 @@
 ﻿using PropertyChanged;
 
-namespace Ouroboros.Bootstrap.Wpf.ViewModels.Screens
+namespace $rootnamespace$.ViewModels.Screens
 {
     [ImplementPropertyChanged]
     public class MainViewModel
